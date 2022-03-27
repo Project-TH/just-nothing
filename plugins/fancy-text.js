@@ -2,7 +2,7 @@ const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const got = require("got");
-const need = "*You must enter words!*"
+const need = "Enter Words!"
 const DC = "It generates fancy texts."
 
 // Config
