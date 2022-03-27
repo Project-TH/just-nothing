@@ -16,7 +16,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
 
 Asena.addCommand({pattern: 'clear', fromMe: true, desc: Lang.CLEAR, dontAddCommandList: false}, (async (message, match) => {
 
-    await message.sendMessage('Clearing Chat...');
+    await message.sendMessage('*Clearing Chat...*');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('Chat Cleared!');
+    await message.sendMessage('*Chat Cleared!*');
 }));
