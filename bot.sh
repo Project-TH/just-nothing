@@ -1,11 +1,5 @@
 #!/bin/sh
 # Usage: ./bot.sh 
-# A shell script for easy installation. 
-# Powered by functions and variables.
-# Two different language options are available.#
-# For Turkish Users
-# For Non-Turkish Users ( English )
-# -----------------------------------------------------------------------------
 
 # Functions waiting to be review
 : <<'WAIT_FOR_REVIEW'
