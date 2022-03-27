@@ -33,7 +33,3 @@ Asena.addCommand({pattern: 'rules', fromMe: false, dontAddCommandList: true}, (a
         await message.client.sendMessage(message.jid,hd + rg.message + '\n\n' + pw,MessageType.text);
     }
 }));
-
-Asena.addCommand({pattern: 'setrules (.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
-	await message.sendMessage("Insufficient permissions to set group rules.")
-}));
