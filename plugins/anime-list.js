@@ -1,6 +1,6 @@
 const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
-const ANIME = "*─「 Anime List 」─*\n\n┎🫐 .loli\n┃\n┝🫐 .wifu\n┃\n┝🫐 .neko\n┃\n┝🫐 .ava\n┃\n┝🫐 .kemo\n┃\n┝🫐 .awoo\n┃\n┝🫐 .shinobu\n┃\n┗🫐 .megumin"
+const ANIME = "*─「 ᴀɴɪᴍᴇ ʟɪsᴛ 」─*\n\n┎🫐 .loli\n┃\n┝🫐 .wifu\n┃\n┝🫐 .neko\n┃\n┝🫐 .ava\n┃\n┝🫐 .kemo\n┃\n┝🫐 .awoo\n┃\n┝🫐 .shinobu\n┃\n┗🫐 .megumin"
 const fs = require('fs');
 const Ln = "Anime List"
 const axios = require('axios');
