@@ -1,5 +1,5 @@
 const {MessageType, GroupSettingChange, ChatModification, WAConnectionTest} = require('@adiwajshing/baileys');
-const Neotro = require('../events');
+const Asena = require('../events');
 const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('nothing');
