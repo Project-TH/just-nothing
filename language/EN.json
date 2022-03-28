@@ -2,14 +2,16 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "English",
     "LANGCODE": "en",
-    "AUTHOR": "AsenaDev",
+    "AUTHOR": "nobody",
     "STRINGS": {
-        "_asena": {
+        "_nothing": {
             "COMMAND": "Command",
             "DESC": "Description",
             "EXAMPLE": "Example",
             "NOT_FOUND": "*I couldnt find a command like this*",
+            "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
             "WARN": "Warn"
+            
         },
         "_plugin": {
             "INSTALL_DESC": "Install external plugins.",
@@ -25,7 +27,7 @@
             "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
             "DELETED": "*✅ Module successfully deleted!*",
-            "WARN": "Get plugins only from t.me/remasterplugin channel."
+            "WARN": "Get plugins only from t.me/neotroplug channel."
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
@@ -37,6 +39,7 @@
             "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
             "PROMOTED": "```, admin role was given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
+            "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
@@ -45,7 +48,8 @@
             "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
             "UNMUTED": "```The group chat has unmuted!```",
             "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```Invitation link: ```"
+            "INVITE": "```Invitation link: ```",
+            "RENAME": "Change Group Name"
         },
         "locate": {
             "L_DESC": "It send your location.",
@@ -75,10 +79,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```Shutting down ⛔```",
+            "RESTART_DESC": "Restart Amazone Alexa",
+            "RESTART_MSG": "*Restarting 👩‍🦰Amazone Alexa...*",
+            "SHUTDOWN_DESC": "Shutdown 👩‍🦰Amazone Alexa",
+            "SHUTDOWN_MSG": "*Shutting down ⛔ 👩‍🦰Amazone Alexa*",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -86,7 +90,7 @@
             "DYNO_LEFT": "```Remaining```",
             "GR_DEL": "*Greetings Message Set!*\n*Type* ```.goodbye delete & .welcome delete``` *to remove!*",
             "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
+            "SET_SUCCESS": "Successfully set ```{} ▷▷▷ {}```",
             "KEY_VAL_MISSING": "```Either Key or Value is missing```",
             "INVALID": "```Invalid key:value format```",
             "GETVAR_DESC": "Get heroku config var",
@@ -95,9 +99,12 @@
             "NOT_FOUND": "```no results found for this key```",
             "SUCC": "*Successfully Setted Up ✅* \n*Please wait a little while.*",
             "SUCC_AF": "*To restore, use* ```default```",
-            "DEGİS_NONE": "```Please Enter Any Module Name!``` \n\n*.degis afk*\n*.degis alive* << *Variables* >> \n_{pp}: You only need to use it once. Adds your profile photo to the message._ \n_{asenalogo}: Adds animated WhatsAsena logo._ \n_{info}: Shows your status._ \n_{version}: Shows the version of the bot._ \n_{plugin}: Shows the plugin channel._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis welcome* \n*.degis goodbye* \n*.degis kickme*\n*.degis block*\n*.degis unblock*",
+            "DEGİS_NONE": "```Please Enter Any Module Name!``` \n\n*.degis afk*\n*.degis alive* << **Variables** >> \n_{pp}: You only need to use it once. Adds your profile photo to the message._ \n_{info}: Shows your status._ \n_{version}: Shows the version of the bot._ \n_{plugin}: Shows the plugin channel._\n*.degis ban*\n*.degis add*\n*.degis mute*\n*.degis unmute*\n*.degis promote*\n*.degis demote*\n*.degis welcome* \n*.degis goodbye* \n*.degis kickme*\n*.degis block*\n*.degis unblock*",
             "WR": "*Please use the modules that exists!*",
             "DEGİS_DESC": "Changes the text of modules like alive, afk etc.."       
+        },
+        "bots": {
+            "BS": "bot links"
         },
         "filters": {
             "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
@@ -110,6 +117,16 @@
             "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
             "DELETED": "*✅ The filter was successfully deleted!*"
         },
+        "info": {
+            "INFO_DESC": "Show chat details",
+            "GRP_NAME": "*ℹ️ Group name :*",
+            "GRP_JID": "*💬 Group JID :*",
+            "GRP_OWN": "*⚜️ Group owner :*",
+            "GRP_COD": "*🆔 Group invite link :*",
+            "GRP_DES": "*🗨️ Group description :*",
+            "PRO_JID": "*💬 User JID :*",
+            "PRO_DES": "*🗨️ Description :*"
+        },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
             "NOT_SET_WELCOME": "*You don't set the welcome message yet.!*\n**To set:** ```.welcome hi && hi#how are you?```",
@@ -117,7 +134,14 @@
             "NEED_WELCOME_TEXT": "*You must write a message to set up the welcome message.*\n*Example:* ```.welcome hi && hi#how are you?```",
             "WELCOME_DELETED": "*✅ Welcome message has been deleted successfully!*",
             "WELCOME_SETTED": "*✅ Welcome message has been set successfully!*",
+            "RULE_DESC": "Shows the Group rules",
+			"SETRULE_DESC": "It sets the Rule message..\n*Example:* _.setrules No Links#No Spamming_",
+            "NOT_SET_RULE": "🦹🏼‍♀️ *You don't set the Rule message yet.!*\n*Example:* _.setrules No Links#No Spamming_",
+            "NEED_RULE_TEXT": "🦹🏼‍♀️ *You must write a message to set up the Rule message.*\n*Example* _.setrules No Links#No Spamming_",
+            "RULE_DELETED": "*✅ Rule message has been deleted successfully!*",
+            "RULE_SETTED": "*✅ Rule message has been set successfully!*",
             "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
+            "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
             "NOT_SET_GOODBYE": "*You didn't set a goodbye message!*\n*To set:* ```.goodbye bye && bye#see ya```",
             "GOODBYE_ALREADY_SETTED": "*✅ Goodbye message has been set!*\n*Message:* ```",
             "NEED_GOODBYE_TEXT": "*You must write a message to set up the goodbye message.*\n*Example:* ```.goodbye bye && bye#see ya```",
@@ -138,6 +162,15 @@
             "MEMES_DESC": "Photo memes you replied to.",
             "NEED_REPLY": "*Reply to a photo!*",
             "DOWNLOADING": "```Downloading media & making meme...```"
+         },
+        "music": {
+            "MC": "To play musics."
+          },
+        "over": {
+            "OVER_DESC": "To remove."
+         },
+        "gitlink": {
+            "GL": "To show dgithub details."
         },
         "ocr": {
             "OCR_DESC": "Reads the text on the photo you have replied.",
@@ -147,21 +180,21 @@
             "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
         "profile": {
-            "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
-            "PP_DESC": "Makes the profile photo what photo you reply.",
-            "NEED_PHOTO": "*Give me a photo!*",
-            "PPING": "```Setting profile photo...```",
-            "BLOCK_DESC": "Block user.",
-            "UNBLOCK_DESC": "Unblock user.",
-            "BLOCKED": "blocked",
-            "UNBLOCKED": "unblocked",
-            "BLOCKED_UPPER": "Blocked!",
-            "UNBLOCKED_UPPER": "Unblocked.",
-            "NEED_USER": "Give me a user!",
-            "JID_DESC": "Giving user's JID.",
+            "KICKME_DESC": "එය ඔබ භාවිතා කරන කණ්ඩායමෙන් ඔබව ඉවත් කරයි.",
+            "KICKME": "```මම යනවා! ගිහින් එන්නම් 🤠```",
+            "PP_DESC": "ඔබ පිළිතුරු දෙන ඡායාරූපය පැතිකඩ ඡායාරූපය කරයි.",
+            "NEED_PHOTO": "*මට ඡායාරූපයක් දෙන්න!*",
+            "PPING": "```Profile ඡායාරූපය සැකසීම...```",
+            "BLOCK_DESC": "පරිශීලක අවහිර කිරීම.",
+            "UNBLOCK_DESC": "පරිශීලක වාරණය ඉවත් කිරීම.",
+            "BLOCKED": "අවහිර කර ඇත",
+            "UNBLOCKED": "Unblock කර ඇත",
+            "BLOCKED_UPPER": "අවහිර කර ඇත!",
+            "UNBLOCKED_UPPER": "Unblock කර ඇත.",
+            "NEED_USER": "මට user කෙනෙක් mention කරන්න.!",
+            "JID_DESC": "User's JID දීම.",
             "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat's JID address: {}```"
+            "JID_CHAT": "```Chat's JID address: {}```"  
         },
         "removebg": {
             "REMOVEBG_DESC": "Removes the background of the photos.",
@@ -171,7 +204,7 @@
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
-            "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
+            "TRANSLATE_USAGE": ".trt en si (From english to sinhala)",
             "NEED_REPLY": "```Please reply to any message!```",
             "LANG": "Language",
             "FROM": "Translated Language",
@@ -185,12 +218,12 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
+            "DOWNLOADING_SONG": "\n*Searching*\n",
+            "UPLOADING_SONG": "\n*Feel the song*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
-            "UPLOADING_VIDEO": "```Uploading your video...```",
+            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlV5qeBc```",
+            "DOWNLOADING_VIDEO": "*Downloading*",
+            "UPLOADING_VIDEO": "*Uploading*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -198,12 +231,13 @@
             "SEARCHING": "* 🔎 Searching...*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
+            "PIMG_DESC": "Searches for related pics on Pinterest.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
         },
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "DOWNLOADING": "```👩‍🦰Amazone Creating Sticker```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -216,22 +250,27 @@
             "NO": "*Please Enter Any Phone Number!*\n*Example:* ```.scan 90xxxx```",
             "SUC": "*Numbered Person Uses WhatsApp! ✅*",
             "UNSUC": "*Numbered Person Does Not Use WhatsApp! ❌*",
+            "PLKADMIN": ".report you are not admin \n\n 🇩🇴🇳🇹 🇹🇷🇾 🇦🇬🇦🇮🇳, 🇮🇫 🇾🇴🇺 🇹🇷🇾 🇾🇴🇺 🇼🇮🇱🇱 🇧🇪 🇷🇪🇲🇴🇻🇪🇩 🇧🇾 🇦🇩🇲🇮🇳🇸",
             "TAGADMİN": "Tags group admins.",
             "REPORT": "Sends reports to group admins.",
             "USER": "=== ```Report``` ===\n\n*User:* ",
             "REASON": "\n*Reason:* ",
-            "REPLY": "*Please Respond to User's Message to Report!*"
+            "REPLY": "*Please Respond to User's Message to Report!*",
+            "WREPORT": "Sends warning reports to group admins.",
+            "WUSER": " ```⚠️ Warning ⚠️``` \n\n ```1 warnings remaining``` \n\n *User:* ",
+            "WREASON": "\n*Reason of warn:* ",
+            "WREPLY": "*Please Respond to User's Message to Warning!*"
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
             "UPDATE": "*Your bot is completely up-to-date!*",
             "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
-            "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 WhatsAsena Restarting Automatically!*",
+            "UPDATING": "Updating..🧞‍♂️",
+            "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
+            "UPDATED": "*👩‍🦰Amazone Alexa Updated!*",
+            "UPDATED_LOCAL": "*👩‍🦰Amazone Alexa Updated!*",
+            "AFTER_UPDATE": "*👩‍🦰Amazone Alexa Restarting !*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -278,18 +317,17 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
-            "ANİM_STİCK": "Converts animated stickers to video.",
-            "ANİMATE": "```Converting Animated Sticker To Video..```",
-            "STİCKER_DESC": "Converts the sticker to a photo.",
-            "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
-            "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
+            "MP4TOAUDİO_DESC": "වීඩියෝව mp3 බවට පරිවර්තනය කරයි.",
+            "MP4TOAUDİO_NEEDREPLY": "*ඔබ වීඩියෝවකට mention දිය යුතුය!*",
+            "MP4TOAUDİO": "\n```🔄 වීඩියෝව mp3 බවට පරිවර්තනය කිරීම..```\n",
+            "STİCKER_DESC": "ස්ටිකරය ඡායාරූපයකට පරිවර්තනය කරයි.",
+            "STİCKER_NEEDREPLY": "*ඔබ ස්ටිකරයකට mention දිය යුතුය!*",
+            "STİCKER": "\n```🔄 ස්ටිකරය ඡායාරූපයකට පරිවර්තනය කිරීම..```\n",
+            "XMEDİA_DESC": "එය මාධ්‍ය මෙවලම් 25 කට වඩා ඇති ප්ලගිනයකි.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
-            "T_DESC": "Applies the selected TBlend effect to videos." 
+            "T_DESC": "Applies the selected TBlend effect to videos.",
+            "ADMIN_DES": "Bot Owner Command list" 
         },
         "mute": {
             "BİRMUTE": "*The group was silenced for 1 minute!*",
@@ -373,7 +411,11 @@
         "unvoice": {
             "UV_DESC": "Converts audio to sound recording.",
             "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```"
+            "UV_PROC": "```Converting to Sound Recording..```",
+            "SPDF_DESC": "Converts a Site into PDF",
+            "SPDF_LINK": "*You Must Enter a URL*",
+            "SPDF_PROC": "```Converting Site into PDF```"
+            
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
@@ -400,7 +442,7 @@
             "CARBON_WARN": "Please only type in en and tr character!"
         },
         "scam": {
-            "SCAM_DESC": "Creates fake actions.",
+            "SCAM_DESC": "Creates 5 minutes of fake actions.",
             "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
             "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
         },
@@ -458,8 +500,12 @@
             "HIDDEN": "Hidden",
             "NOT_FOUND": "*Media Not Found!*"
         },
+        "qrgenerator": {
+             "TEXT": "You must enter text!",
+            "QR_DESC": "Converts the given text into a qr code image."
+        },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github xneon2",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
@@ -478,7 +524,17 @@
             "HİRE_TRUE": "Hirable ☑️",
             "HİRE": "Can s/he Hirable?:",
             "URL": "Profile URL:",
-            "UPDATE": "Last Update:"
+            "UPDATE": "Last Update:",
+            "BOT_DESC": "Chat with.\n Use .molu <message>",
+            "BOT": ":",
+            "JOKE_DESC": "Get a random joke.",
+            "DEVICE": "get the details of given mobile phone",     
+            "JOKE": "Joke:",
+            "PUNCHLINE": "Punchline:",
+            "EVINS_DESC": "Get an evil insult.",
+            "EVINS": "...",
+            "NEWEP": "confused about updates..? use to know about updates "
+            
         },
         "tiktok": {
             "TİKTOK": "Downloads videos from Tiktok.",
@@ -502,6 +558,62 @@
             "AUT": "Song Owner:",
             "BUL": "Founded Song:",
             "ARAT": "Searched Song:"
+        },
+        "amazone": {
+            "APK": "GET mod app link.",
+            "ANIM_DESC": "```Send Random Anime Wallpapers!```",
+            "BR_DESC": "Ask a quation",
+            "ANTI": "Turn On AntiLink",
+            "DEVICE": "get phone details",
+            "SPDF": "Converts website link to pdf",
+            "CARBON": "converts Text to java-Carbon logo",
+            "CURRENCY": "get money units information",
+            "CLEAR": "clear Chats",
+            "BUGHOLE": "GROUP crash ◁Bug Hole▷",
+            "MP4": "Direct Video Downloader",
+            "WORK": "change bot work type.\n📑.work public/private",
+            "FRANCY": "Text Styles",
+            "MOVIE": "Show movie details",
+            "BOT_DESC": "Chat with AI sim bot .bot < your msg >",
+            "PINSTA": "Download Instergram post",
+            "VINSTA": "Download instergram video",
+            "PKG": "install official Amazone plugins",
+            "REMOVE": "Remove Official plugins",
+            "PLUG": "Show official plugins list",
+            "MMPACK": "Show  meme maker list",
+            "ANIMELIST": "More Anime photos",
+            "SHOW": "show tv series details",
+            "TWT": "Download video from twitter",
+            "TTP": "get ttp list",
+            "WALL": "Random Esthetic wallpaper",
+            "AI": "AI chat bot.",
+            "MENU": "show Button message menu",
+            "NOT_FOUNDAC": "*⛔Invaild Request*",
+            "NEED_LOCATIONA": "*⛔Invaild Request*",
+            "ADON_DESC": "AI  Chat bot on / off.\n⌨️example: AI chat bot on, .adon AI_BOT:true use command.\nAI chat bot off, .adon AI_BOT:false use command.",
+            "ADON_MISSING": "```Command disabled.```",
+            "ADON_SUCCESS": "```✅Success```",
+            "ADON_INVALID": "```Disable success.```",
+            "BOT": ":",
+            "SONG": "Download song as document",
+            "TIKTOK": "Download tik tok video",
+            "DEVICE": "Check device details",
+            "DATA": "Get Ehi list",
+            "E": "👩‍🦰",
+            "APK_DESC": "Playstore Download කරයි.",
+            "APK_NEED": "Playstore app link ඇතුළත් කරන්න.",
+            "NO_APK": "වලංගු playstore app link ඇතුළත් කරන්න.",
+            "APK_DW": "\n💰ඔබගේ APK download කරමින් පවති...\n",
+            "APK_UP": "\n🚀ඔබගේ APK upload කරමින් පවති...\n",
+            "APK_D": "▸ 🛸APK Description ◂\n\n",
+            "APK_N": "🛡️ APK Name : ",
+            "APK_DEV": "\n👨🏻‍💻 Developer : ",
+            "APK_V": "\n📟 Version : ",
+            "APK_SUM": "\n🔎info : ", 
+            "TIKTOK": "Download Tik tok video.",
+	    "FBDOWN": "Download Facebook Video.",
+	    "PTDOWN": "Download Pinterest Images.\n*Ex:* .pindown https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQSQw7-cBL94qfMsyhHI40dntZSwOKuhHcA&usqp=CAU",
+            "NOT_AVAILABLE": "👩‍🦰Amazone chat bot Disabled."
         },
         "covid": {
             "COV_DESC": "Shows the daily and overall covid table of more than 15 countries.",
